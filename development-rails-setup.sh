@@ -87,7 +87,7 @@ cd rubygems-1.3.5/
 ruby setup.rb
 cd /
 rm /src/rubygems-1.3.5.tgz
-rm /src/-rf rubygems-1.3.5
+rm -rf /src/rubygems-1.3.5
 
 echo ""
 echo "================================================================"
@@ -113,7 +113,7 @@ make install
 ln -s /usr/local/bin/git /usr/bin/git
 cd /
 rm /src/git-1.6.5.2.tar.gz
-rm /src/-rf git-1.6.5.2
+rm -rf /src/git-1.6.5.2
 
 gem sources -a http://gemcutter.org
 gem sources -a http://gems.github.com
