@@ -19,7 +19,7 @@ echo ""
 
 echo "Do you'd like continue the installation? (y) for condinue or (q) to quit:"
 read START
-if [ $START == "q" ]; then
+if [ $START = "q" ]; then
 	echo "Installation not started"
 	exit 2
 fi
