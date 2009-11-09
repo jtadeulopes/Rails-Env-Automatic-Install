@@ -123,7 +123,7 @@ gem install --no-rdoc --no-ri rails
 echo "Do you would like install a set of gems than in my opinion is very important for a Rails development server? (y/n)"
 read WANTS_GEMS_PACK
 
-if [ $WANTS_GEMS_PACK == "y" ]; then
+if [ $WANTS_GEMS_PACK = "y" ]; then
 	
 	echo ""
 	echo "================================================================"
@@ -177,7 +177,7 @@ fi
 echo "Do you'd like install GMATE set of plugins for GEdit editor? (y/n)"
 read WANTS_GMATE
 
-if [ $WANTS_GMATE == 'y' ]; then
+if [ $WANTS_GMATE = 'y' ]; then
 	echo ""
 	echo "================================================================"
 	echo "\tInstalling GMATE Plugins"
@@ -194,7 +194,7 @@ fi
 echo "Do you'd like setup Apache to works with Passenger? (y/n)"
 read WANTS_PASSENGER
 
-if [ $WANTS_PASSENGER == 'y' ]; then
+if [ $WANTS_PASSENGER = 'y' ]; then
 	
 	echo ""
 	echo "================================================================"
