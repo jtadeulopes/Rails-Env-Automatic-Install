@@ -45,7 +45,7 @@ echo "\tInstalling required libraries and packages"
 echo "================================================================"
 echo ""
 
-apt-get -y install tcl-dev libexpat-dev libcurl4-openssl-dev apg geoip-bin libgeoip1 libgeoip-dev libsqlite3-dev libpcre3 libpcre3-dev libyaml-dev libmysqlclient15-dev libonig-dev libopenssl-ruby libdbd-mysql-ruby libmysql-ruby  libmagick++-dev zip unzip libxml2-dev libxslt1-dev libxslt-ruby libxslt-ruby1.8 libxslt1.1 libxslt1-dev libxslt1-dbg pyinotify passenger-install-apache2-module libapr1-dev libaprutil1-dev memcached 
+apt-get -y install tcl-dev libexpat-dev libcurl4-openssl-dev apg geoip-bin libgeoip1 libgeoip-dev libsqlite3-dev libpcre3 libpcre3-dev libyaml-dev libmysqlclient15-dev libonig-dev libopenssl-ruby libdbd-mysql-ruby libmysql-ruby  libmagick++-dev zip unzip libxml2-dev libxslt1-dev libxslt-ruby libxslt-ruby1.8 libxslt1.1 libxslt1-dev libxslt1-dbg libapr1-dev libaprutil1-dev memcached 
 
 echo ""
 echo "================================================================"
