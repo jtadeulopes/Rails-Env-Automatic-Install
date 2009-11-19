@@ -172,6 +172,13 @@ if [ $WANTS_GEMS_PACK = "y" ]; then
 	gem install --no-ri --no-rdoc oniguruma
 	gem install --no-ri --no-rdoc ultraviolet
 	gem install --no-ri --no-rdoc libxml-ruby
+	gem install --no-ri --no-rdoc faker
+	gem install --no-ri --no-rdoc populator
+	gem install --no-ri --no-rdoc remarkable_rails
+	gem install --no-ri --no-rdoc brazilian-rails
+	gem install --no-ri --no-rdoc grit
+	gem install --no-ri --no-rdoc gravtastic
+	gem install --no-ri --no-rdoc formtastic
 fi
 
 echo "Do you'd like install GMATE set of plugins for GEdit editor? (y/n)"
