@@ -179,6 +179,7 @@ if [ $WANTS_GEMS_PACK = "y" ]; then
 	gem install --no-ri --no-rdoc grit
 	gem install --no-ri --no-rdoc gravtastic
 	gem install --no-ri --no-rdoc formtastic
+	gem install --no-ri --no-rdoc annotate
 fi
 
 echo "Do you'd like install GMATE set of plugins for GEdit editor? (y/n)"
